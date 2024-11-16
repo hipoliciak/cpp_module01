@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmodrzej <dmodrzej@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: dmodrzej <dmodrzej@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 22:58:54 by dmodrzej          #+#    #+#             */
-/*   Updated: 2024/11/09 23:13:07 by dmodrzej         ###   ########.fr       */
+/*   Updated: 2024/11/16 14:17:20 by dmodrzej         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,9 @@ int main(void)
 
 	HumanA bob("Bob", club);
 	HumanB jim("Jim");
+
+	bob.attack();
+	jim.attack();
 
 	jim.setWeapon(sword);
 

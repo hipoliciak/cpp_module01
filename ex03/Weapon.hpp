@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Weapon.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmodrzej <dmodrzej@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: dmodrzej <dmodrzej@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 22:59:20 by dmodrzej          #+#    #+#             */
-/*   Updated: 2024/11/09 23:01:06 by dmodrzej         ###   ########.fr       */
+/*   Updated: 2024/11/16 14:19:08 by dmodrzej         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,16 +17,17 @@
 #include <string>
 
 class Weapon {
-
-	private:
-		std::string _type;
-
+	
 	public:
 		Weapon(std::string type);
 		~Weapon();
 
 		const std::string& getType() const;
 		void setType(std::string type);
+	
+	private:
+		std::string _type;
+
 };
 
 #endif
