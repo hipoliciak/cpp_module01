@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dmodrzej <dmodrzej@student.42warsaw.pl>    +#+  +:+       +#+        */
+/*   By: dmodrzej <dmodrzej@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 21:36:35 by dmodrzej          #+#    #+#             */
-/*   Updated: 2024/11/09 22:39:47 by dmodrzej         ###   ########.fr       */
+/*   Updated: 2024/11/16 13:38:07 by dmodrzej         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 Zombie::Zombie(std::string name)
 {
 	_name = name;
+	std::cout << _name << " is created." << std::endl;
 }
 
 Zombie::~Zombie()
